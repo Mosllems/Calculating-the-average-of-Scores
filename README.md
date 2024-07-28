@@ -1,0 +1,1 @@
+"In this program, using the Python programming language, we can calculate the average of the scores a student has obtained during the semester. To do this, we first enter the grade for each course and then the number of credits for each course. Finally, to exit the program, we enter the number 0."
