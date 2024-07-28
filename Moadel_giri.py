@@ -2,12 +2,12 @@ def average():
     grade = []
     grade_2 = []
     z = 0
-    print("Nomrehato vared kon va har vaqt tamom shod 0 ro vared kon")
+    print("Enter your scores and to exit the program enter 0 ")
     while True:
-        score = float(input("Nomrato vared kon: "))
+        score = float(input("Enter your score: "))
         if score <= 20 and score > 0:
             grade.append(score)
-            zarib = int(input("Chand vahedie: "))
+            zarib = int(input("Enter the credits: "))
             if 1 <= zarib <= 3:
                 z += zarib
             majmo = score * zarib
@@ -17,6 +17,6 @@ def average():
     s = sum(grade_2)
     moadel = s / z
     round(moadel, 2)
-    print(f"Moadel in termet {moadel} shode")
+    print(f"The average of this semester is {moadel}")
 
 average()
